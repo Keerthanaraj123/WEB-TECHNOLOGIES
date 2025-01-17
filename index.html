@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flexbox Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container {
+            margin: 20px;
+        }
+        .header {
+            background-color: lightblue;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .sub-header {
+            background-color: lightcoral;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .content {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .content div {
+            background-color: lightgreen;
+            flex: 1;
+            height: 100px;
+        }
+        .footer {
+            background-color: lightgray;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div class="sub-header"></div>
+        <div class="content">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
